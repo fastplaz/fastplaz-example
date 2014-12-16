@@ -59,4 +59,6 @@ Thumbs.db
 node_modules
 dist
 
-# fastplaz
+# fastplaz example
+source/db/simple_contacts/lib/*
+source/db/simple_contacts/lib/backup/*
