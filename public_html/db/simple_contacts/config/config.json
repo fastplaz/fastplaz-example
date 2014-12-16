@@ -23,7 +23,7 @@
       "password" : "root",
       "database_name" : "thisisdatabase",
       "prefi" : "",
-      "library" : "..\/libs\/win\/libmysql.dll"
+      "library" : "..\/..\/..\/libs\/win\/libmysql.dll"
     }
   }
 }

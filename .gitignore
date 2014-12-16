@@ -58,6 +58,7 @@ Thumbs.db
 .idea
 node_modules
 dist
+libs
 
 # fastplaz example
 source/db/simple_contacts/lib/*
