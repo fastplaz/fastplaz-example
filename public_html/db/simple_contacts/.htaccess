@@ -6,7 +6,7 @@ AddHandler cgi-script .pas
 AddHandler cgi-script .exe
 Options +ExecCGI
 
-DirectoryIndex simplecontacts.exe
+DirectoryIndex simplecontacts.bin
 
 RewriteCond %{REQUEST_FILENAME} -d [OR]
 RewriteCond %{REQUEST_FILENAME} -f [OR]

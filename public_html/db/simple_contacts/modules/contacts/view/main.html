@@ -42,7 +42,7 @@
 		  <td>[aItem.name]</td>
 		  <td>[aItem.codename]</td>
 		  <td>[aItem.balance]</td>
-		  <td>[aItem.gemblung_status] [if aItem.gemblung_status eq 1]Yak[/if]</td>
+		  <td>[if aItem.gemblung_status eq 1]Yak[else]nDak[/if]</td>
           <td>
             <a href="?op=edit&id=[aItem.id]">Edit</a> |
             <a href="?op=delete&id=[aItem.id]" onClick="return ConfirmDelete();">Delete</a>
@@ -54,7 +54,7 @@
 </div>
 
 <div class="bs-callout bs-callout-info">
-sss
+...
 </div>
 
 <div class="highlight pull-right"><pre>
