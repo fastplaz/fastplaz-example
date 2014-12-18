@@ -3,7 +3,7 @@ program simplecontacts;
 {$mode objfpc}{$H+}
 
 uses
-  fpcgi, sysutils, fastplaz_handler, common, main, routes, contacts_controller, contact_model, cobas_model;
+  fpcgi, sysutils, fastplaz_handler, common, main, routes, contacts_controller, contact_model;
 
 begin
   Application.Title:='Simple Contacts';
