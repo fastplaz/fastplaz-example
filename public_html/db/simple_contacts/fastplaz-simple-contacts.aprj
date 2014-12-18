@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AksiIDE>
+  <project>
+    <name>FastPlaz-Simple Contacts</name>
+    <module/>
+    <moduleid/>
+    <framework>
+      <name>FastPlaz</name>
+    </framework>
+    <site>
+      <RunAs>0</RunAs>
+      <url>http://local.example.fastplaz.com/db/simple_contacts/</url>
+    </site>
+    <database/>
+    <js/>
+    <git/>
+  </project>
+</AksiIDE>

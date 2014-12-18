@@ -23,7 +23,7 @@ type
 
 implementation
 
-uses theme_controller, common, cobas_model;
+uses theme_controller, common;
 
 constructor TContactsModule.CreateNew(AOwner: TComponent; CreateMode: integer);
 begin

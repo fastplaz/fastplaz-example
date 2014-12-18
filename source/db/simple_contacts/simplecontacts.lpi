@@ -38,7 +38,7 @@
         <PackageName Value="fastplaz_runtime"/>
       </Item2>
     </RequiredPackages>
-    <Units Count="6">
+    <Units Count="5">
       <Unit0>
         <Filename Value="simplecontacts.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -64,11 +64,6 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="contact_model"/>
       </Unit4>
-      <Unit5>
-        <Filename Value="src\cobas_model.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="cobas_model"/>
-      </Unit5>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
