@@ -1,4 +1,7 @@
 
+*.tar.gz
+*.zip
+*.7z
 *.bin
 *.exe
 *.dll
