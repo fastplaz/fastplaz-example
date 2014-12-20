@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="session.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="session"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="routes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="routes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="20"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="main"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="28"/>
+        <CursorPos X="19" Y="36"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
+        <UnitName Value="fastplaz_handler"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="297"/>
+        <CursorPos X="56" Y="313"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <UnitName Value="session_controller"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="240"/>
+        <CursorPos X="29" Y="257"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="144" Column="1" TopLine="142"/>
+      </Position1>
+      <Position2>
+        <Filename Value="main.pas"/>
+        <Caret Line="37" Column="22" TopLine="31"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="107" Column="42" TopLine="101"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="36" Column="27" TopLine="18"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="107" Column="42" TopLine="89"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="276" Column="28" TopLine="258"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="32" Column="37" TopLine="21"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="24" Column="43" TopLine="21"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="32" Column="54" TopLine="21"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="139" Column="60" TopLine="121"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="257" Column="20" TopLine="240"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
+        <Caret Line="74" Column="28" TopLine="64"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="276" Column="73" TopLine="258"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="32" Column="54" TopLine="14"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="139" Column="60" TopLine="121"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="257" Column="20" TopLine="240"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="276" Column="73" TopLine="258"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="32" Column="54" TopLine="21"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="139" Column="60" TopLine="121"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="257" Column="20" TopLine="240"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="276" Column="73" TopLine="258"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="32" Column="54" TopLine="21"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="139" Column="60" TopLine="121"/>
+      </Position26>
+      <Position27>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="257" Column="20" TopLine="240"/>
+      </Position27>
+      <Position28>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="276" Column="73" TopLine="258"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="32" Column="54" TopLine="21"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="139" Column="60" TopLine="121"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

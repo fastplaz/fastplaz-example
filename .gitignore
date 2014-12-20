@@ -49,7 +49,7 @@ Thumbs.db
 
 # lazarus
 *.compiled
-*.lps
+#*.lps
 *.bak
 *.ppu
 *.o
