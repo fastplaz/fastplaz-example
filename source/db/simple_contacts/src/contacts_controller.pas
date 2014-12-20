@@ -42,32 +42,41 @@ procedure TContactsModule.RequestHandler(Sender: TObject; ARequest: TRequest;
   AResponse: TResponse; var Handled: boolean);
 begin
   DataBaseInit();
-  if ((_GET['op'] = 'delete') AND (_GET['id']<>'')) then
+  if ((_GET['op'] = 'delete') and (_GET['id'] <> '')) then
   begin
-    Contact.Delete('id='+_GET['id']);
+    Contact.Delete('id=' + _GET['id']);
     Redirect('./contacts');
   end;
 
   if isPost then
   begin
     Contact['name'] := ucwords(_POST['name']);
-    Contact['codename'] := UpperCase( _POST['codename']);
-    Contact['balance'] := s2f( _POST['balance']);
-    if _POST['id']='' then Contact.Save() else Contact.Save('id='+_POST['id']);
+    Contact['codename'] := UpperCase(_POST['codename']);
+    Contact['balance'] := s2f(_POST['balance']);
+    if _POST['gemblung_status'] = 'on' then
+      Contact['gemblung_status'] := 1
+    else
+      Contact['gemblung_status'] := 0;
+    if _POST['id'] = '' then
+      Contact.Save()
+    else
+      Contact.Save('id=' + _POST['id']);
   end;
 
-  if _GET['id']<>'' then
+  if _GET['id'] <> '' then
   begin
-    if Contact.Find( ['id='+_GET['id']]) then
+    if Contact.Find(['id=' + _GET['id']]) then
+    begin
       ThemeUtil.Assign('$Contact', Contact); //html view --> {$Contact.fieldname}
+    end;
   end;
 
   // find contact list, and send it to theme/view
-  Contact.Find( [''], 'id desc', 10); // alternative: Contact.All;
-  ThemeUtil.Assign('$Contacts', @Contact.Data);
+  Contact.Find([''], 'id desc', 10); // alternative: Contact.All;
+  ThemeUtil.Assign('$Contacts', @Contact);
 
   Tags['$maincontent'] := @Tag_MainContent_Handler; //<<-- tag $maincontent handler
-  ThemeUtil.isCleanTag:=true;
+  ThemeUtil.isCleanTag := True;
   Response.Content := ThemeUtil.Render();
   Handled := True;
 end;
@@ -85,9 +94,9 @@ function TContactsModule.Tag_MainContent_Handler(const TagName: string;
   Params: TStringList): string;
 begin
   // your code here
-  //Result := h3('Hello "Contacts" Module ... FastPlaz !');
 
-  Result := ThemeUtil.RenderFromContent(@TagController, '', 'modules/contacts/view/main.html');
+  Result := ThemeUtil.RenderFromContent(@TagController, '',
+    'modules/contacts/view/main.html');
 end;
 
 
