@@ -67,13 +67,13 @@ begin
   begin
     if Contact.Find(['id=' + _GET['id']]) then
     begin
-      ThemeUtil.Assign('$Contact', Contact); //html view --> {$Contact.fieldname}
+      ThemeUtil.Assign('$Contact', Contact.Data); //html view --> {$Contact.fieldname}
     end;
   end;
 
   // find contact list, and send it to theme/view
   Contact.Find([''], 'id desc', 10); // alternative: Contact.All;
-  ThemeUtil.Assign('$Contacts', @Contact);
+  ThemeUtil.Assign('$Contacts', @Contact.Data);
 
   Tags['$maincontent'] := @Tag_MainContent_Handler; //<<-- tag $maincontent handler
   ThemeUtil.isCleanTag := True;

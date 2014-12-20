@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="simplecontacts.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="simplecontacts"/>
+        <UsageCount Value="42"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="routes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="routes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="42"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="main"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="34"/>
+        <CursorPos X="25" Y="52"/>
+        <UsageCount Value="42"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="src\contacts_controller.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="contacts_controller"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="65"/>
+        <CursorPos X="48" Y="70"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="src\contact_model.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="contact_model"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="42"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\database_lib.pas"/>
+        <UnitName Value="database_lib"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="46"/>
+        <CursorPos X="5" Y="56"/>
+        <UsageCount Value="20"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\common.pas"/>
+        <UnitName Value="common"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="36"/>
+        <CursorPos X="55" Y="49"/>
+        <UsageCount Value="20"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\define.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="8"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus-1.2.6\fpc\2.6.4\source\rtl\objpas\sysutils\diskh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="19"/>
+        <UsageCount Value="8"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <UnitName Value="theme_controller"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="272"/>
+        <CursorPos X="49" Y="282"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
+        <UnitName Value="fastplaz_handler"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="329"/>
+        <CursorPos X="1" Y="338"/>
+        <UsageCount Value="8"/>
+      </Unit10>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="669" Column="13" TopLine="651"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="757" Column="1" TopLine="739"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="324" Column="42" TopLine="250"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="350" Column="11" TopLine="332"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="669" Column="13" TopLine="651"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="341" Column="20" TopLine="331"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="47" Column="16" TopLine="28"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="168" Column="31" TopLine="161"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="224" Column="27" TopLine="217"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="240" Column="15" TopLine="230"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="265" Column="17" TopLine="246"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="266" Column="35" TopLine="247"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="341" Column="20" TopLine="332"/>
+      </Position15>
+      <Position16>
+        <Filename Value="src\contacts_controller.pas"/>
+        <Caret Line="76" Column="46" TopLine="72"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="341" Column="67" TopLine="332"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="344" Column="42" TopLine="332"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="762" Column="40" TopLine="742"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="766" Column="57" TopLine="766"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="784" Column="32" TopLine="766"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="791" Column="34" TopLine="773"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="797" Column="34" TopLine="779"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="804" Column="30" TopLine="797"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="811" Column="48" TopLine="797"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="825" Column="32" TopLine="812"/>
+      </Position26>
+      <Position27>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="844" Column="26" TopLine="825"/>
+      </Position27>
+      <Position28>
+        <Filename Value="src\contacts_controller.pas"/>
+        <Caret Line="76" Column="46" TopLine="66"/>
+      </Position28>
+      <Position29>
+        <Filename Value="src\contacts_controller.pas"/>
+        <Caret Line="77" Column="16" TopLine="65"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <Caret Line="146" Column="60" TopLine="135"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>
