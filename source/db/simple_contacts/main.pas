@@ -9,7 +9,8 @@ uses
 
 type
   TMainModule = class(TMyCustomWebModule)
-    procedure RequestHandler(Sender: TObject; ARequest: TRequest; AResponse: TResponse; var Handled: boolean);
+    procedure RequestHandler(Sender: TObject; ARequest: TRequest;
+      AResponse: TResponse; var Handled: boolean);
   private
     function Tag_MainContent_Handler(const TagName: string; Params: TStringList): string;
   public
@@ -32,23 +33,24 @@ begin
   inherited Destroy;
 end;
 
-procedure TMainModule.RequestHandler(Sender: TObject; ARequest: TRequest; AResponse: TResponse; var Handled: boolean);
+procedure TMainModule.RequestHandler(Sender: TObject; ARequest: TRequest;
+  AResponse: TResponse; var Handled: boolean);
 begin
   Tags['$maincontent'] := @Tag_MainContent_Handler; //<<-- tag $maincontent handler
 
-  ThemeUtil.isCleanTag:=True;
+  ThemeUtil.isCleanTag := True;
   Response.Content := ThemeUtil.Render();
   Handled := True;
 end;
 
-function TMainModule.Tag_MainContent_Handler(const TagName: string; Params: TStringList): string;
+function TMainModule.Tag_MainContent_Handler(const TagName: string;
+  Params: TStringList): string;
 begin
 
   // your code here
-  Result:=h3('Hello "Main" Module ... FastPlaz !');
-
+  Result := h3('Simple Contact - example how to use database model.');
+  Result := Result + '';
 end;
 
 
 end.
-

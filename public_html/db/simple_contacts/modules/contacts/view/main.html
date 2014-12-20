@@ -1,7 +1,8 @@
 <div class="container">
 <H2>Contacts Module</H2>
 <blockquote>
-  <p>Contoh CRUD sederhana, dengan 'Model TContact' yang sederhana
+  <p>Contoh CRUD sederhana, dengan 'Model TContact' yang sederhana.
+  <br />Pada contoh ini, data yang diparsing belum dilakukan sanitasi, sehingga masih memungkinkan terjadinya injeksi.
   </p>
 </blockquote>
 </div>
@@ -59,10 +60,13 @@
 
 <div class="highlight pull-right"><pre>
 <b>Source:</b>
-<code class="bash">controller file: src/app/contacts/contacts_controllers.pas
-html template  : modules/contacts/main.html
-layout theme   : themes/[$theme]/templates/master.html
+<code class="bash">
+controller   : src/app/contacts/contacts_controllers.pas
+model        : src/app/contacts/contact_model.pas
+view         : modules/contacts/main.html
+layout theme : themes/[$theme]/templates/master.html
 </code></pre></div>
+
 
 <script type="text/javascript" >
 function ConfirmDelete()

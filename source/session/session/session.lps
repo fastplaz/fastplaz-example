@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="session.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="session"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="routes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="routes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="20"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="main"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="34"/>
+        <CursorPos X="1" Y="39"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
+        <UnitName Value="fastplaz_handler"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="290"/>
+        <CursorPos X="3" Y="211"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <UnitName Value="session_controller"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="303"/>
+        <CursorPos X="3" Y="317"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="6" HistoryIndex="5">
+      <Position1>
+        <Filename Value="main.pas"/>
+        <Caret Line="45" Column="18" TopLine="34"/>
+      </Position1>
+      <Position2>
+        <Filename Value="main.pas"/>
+        <Caret Line="48" Column="15" TopLine="37"/>
+      </Position2>
+      <Position3>
+        <Filename Value="main.pas"/>
+        <Caret Line="64" Column="27" TopLine="33"/>
+      </Position3>
+      <Position4>
+        <Filename Value="main.pas"/>
+        <Caret Line="55" Column="14" TopLine="34"/>
+      </Position4>
+      <Position5>
+        <Filename Value="main.pas"/>
+        <Caret Line="56" Column="16" TopLine="44"/>
+      </Position5>
+      <Position6>
+        <Filename Value="main.pas"/>
+        <Caret Line="56" Column="28" TopLine="44"/>
+      </Position6>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>
