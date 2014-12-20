@@ -11,7 +11,6 @@ type
   TMainModule = class(TMyCustomWebModule)
     procedure RequestHandler(Sender: TObject; ARequest: TRequest; AResponse: TResponse; var Handled: boolean);
   private
-    function Tag_MainContent_Handler(const TagName: string; Params: TStringList): string;
   public
     constructor CreateNew(AOwner: TComponent; CreateMode: integer); override;
     destructor Destroy; override;
@@ -33,19 +32,35 @@ begin
 end;
 
 procedure TMainModule.RequestHandler(Sender: TObject; ARequest: TRequest; AResponse: TResponse; var Handled: boolean);
+var
+  i : integer;
 begin
   Response.Content := 'Session Example';
-  if _SESSION['exist'] <> 'yes' then
+
+  if _SESSION['exist'] = 'yes' then
+  begin
+    i := _SESSION['count'] + 1;
+    _SESSION['count'] := i;
+    Response.Content := Response.Content
+      + '<br>you visit this page ' + IntToStr(i) + ' times';
+  end
+  else
   begin
     Response.Content := Response.Content +
       '<br><b>THIS IS FIRST TIME</b>';
     _SESSION['exist'] := 'yes';
+    _SESSION['count'] := 1;
   end;
-  Handled := True;
-end;
 
-function TMainModule.Tag_MainContent_Handler(const TagName: string; Params: TStringList): string;
-begin
+  if (_GET['op'] = 'delete') then
+  begin
+    SessionController.EndSession;
+    Redirect('./');
+  end;
+
+  echo('<br><br><br>');
+  echo( '<a href="./?op=delete">End Session</a>');
+  Handled := True;
 end;
 
 
