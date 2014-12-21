@@ -62,3 +62,13 @@ th {
     font-size:11px;
 }
 
+thead th {
+    padding-top:4px !important;
+    padding-bottom:4px !important;
+}
+tbody td {
+    padding-top:2px !important;
+    padding-bottom:2px !important;
+}
+
+
