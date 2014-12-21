@@ -4,12 +4,15 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="11">
+    <Units Count="15">
       <Unit0>
         <Filename Value="simplecontacts.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="simplecontacts"/>
-        <UsageCount Value="42"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="13"/>
+        <UsageCount Value="50"/>
       </Unit0>
       <Unit1>
         <Filename Value="routes.pas"/>
@@ -18,7 +21,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="42"/>
+        <UsageCount Value="50"/>
       </Unit1>
       <Unit2>
         <Filename Value="main.pas"/>
@@ -27,18 +30,17 @@
         <WindowIndex Value="0"/>
         <TopLine Value="34"/>
         <CursorPos X="25" Y="52"/>
-        <UsageCount Value="42"/>
+        <UsageCount Value="50"/>
       </Unit2>
       <Unit3>
         <Filename Value="src\contacts_controller.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="contacts_controller"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="61"/>
-        <CursorPos X="1" Y="72"/>
-        <UsageCount Value="42"/>
+        <TopLine Value="39"/>
+        <CursorPos X="1" Y="44"/>
+        <UsageCount Value="50"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -48,15 +50,15 @@
         <WindowIndex Value="0"/>
         <TopLine Value="5"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="42"/>
+        <UsageCount Value="50"/>
       </Unit4>
       <Unit5>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\database_lib.pas"/>
         <UnitName Value="database_lib"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="46"/>
-        <CursorPos X="5" Y="56"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="55"/>
+        <CursorPos X="1" Y="3"/>
+        <UsageCount Value="25"/>
       </Unit5>
       <Unit6>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\common.pas"/>
@@ -64,43 +66,78 @@
         <WindowIndex Value="0"/>
         <TopLine Value="36"/>
         <CursorPos X="55" Y="49"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="19"/>
       </Unit6>
       <Unit7>
         <Filename Value="..\..\..\..\source\core\FastPlaz\define.inc"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="8"/>
+        <CursorPos X="3" Y="5"/>
+        <UsageCount Value="15"/>
       </Unit7>
       <Unit8>
         <Filename Value="C:\lazarus-1.2.6\fpc\2.6.4\source\rtl\objpas\sysutils\diskh.inc"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="10" Y="19"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="7"/>
       </Unit8>
       <Unit9>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
         <UnitName Value="theme_controller"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="197"/>
-        <CursorPos X="49" Y="282"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="1120"/>
+        <CursorPos X="38" Y="1158"/>
+        <UsageCount Value="25"/>
       </Unit9>
       <Unit10>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
         <UnitName Value="fastplaz_handler"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="329"/>
+        <TopLine Value="323"/>
         <CursorPos X="1" Y="338"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="9"/>
       </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\source\core\tools\src\fastplaz_runtime_register.pas"/>
+        <UnitName Value="fastplaz_runtime_register"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\info_controller.pas"/>
+        <UnitName Value="info_controller"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="30"/>
+        <CursorPos X="3" Y="14"/>
+        <UsageCount Value="15"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus-1.2.6\fpc\2.6.4\source\packages\fcl-base\src\custapp.pp"/>
+        <UnitName Value="CustApp"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="26"/>
+        <CursorPos X="15" Y="71"/>
+        <UsageCount Value="15"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <UnitName Value="session_controller"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="170"/>
+        <CursorPos X="19" Y="187"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit14>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="5" HistoryIndex="4">
       <Position1>
         <Filename Value="src\contacts_controller.pas"/>
         <Caret Line="76" Column="46" TopLine="72"/>
@@ -113,6 +150,14 @@
         <Filename Value="src\contacts_controller.pas"/>
         <Caret Line="77" Column="16" TopLine="65"/>
       </Position3>
+      <Position4>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\session_controller.pas"/>
+        <Caret Line="191" Column="1" TopLine="183"/>
+      </Position5>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>
