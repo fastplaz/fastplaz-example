@@ -61,6 +61,7 @@ begin
       Contact.Save()
     else
       Contact.Save('id=' + _POST['id']);
+    Redirect('./contacts');
   end;
 
   if _GET['id'] <> '' then
