@@ -1,4 +1,4 @@
-unit cobas_model;
+unit contact_model;
 
 {$mode objfpc}{$H+}
 
@@ -8,7 +8,7 @@ uses
   Classes, SysUtils, database_lib;
 
 type
-  TCobasModel = class(TSimpleModel)
+  TContactModel = class(TSimpleModel)
   private
   public
     constructor Create(const DefaultTableName: string = '');
@@ -16,10 +16,11 @@ type
 
 implementation
 
-constructor TCobasModel.Create(const DefaultTableName: string = '');
+constructor TContactModel.Create(const DefaultTableName: string = '');
 begin
-  inherited Create( DefaultTableName); // table name = cobas
+  inherited Create( DefaultTableName); // table name = contact
   //inherited Create('yourtablename'); // if use custom tablename
+  primaryKey:='id';
 end;
 
 end.

@@ -1,4 +1,7 @@
 
+*.tar.gz
+*.zip
+*.7z
 *.bin
 *.exe
 *.dll
@@ -46,7 +49,7 @@ Thumbs.db
 
 # lazarus
 *.compiled
-*.lps
+#*.lps
 *.bak
 *.ppu
 *.o
@@ -58,4 +61,8 @@ Thumbs.db
 .idea
 node_modules
 dist
+libs
 
+# fastplaz example
+source/db/simple_contacts/lib/*
+source/db/simple_contacts/lib/backup/*

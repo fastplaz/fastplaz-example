@@ -1,0 +1,77 @@
+<div class="container">
+<H2>Contacts Module</H2>
+<blockquote>
+  <p>Contoh CRUD sederhana, dengan 'Model TContact' yang sederhana.
+  <br />Pada contoh ini, data yang diparsing belum dilakukan sanitasi, sehingga masih memungkinkan terjadinya injeksi.
+  </p>
+</blockquote>
+</div>
+
+<div class="container">
+<h3>Contact List</h3>
+
+<form class="form-inline" role="form" name="sampleForm" id="sampleForm" action="" method="POST" enctype="" target="" >
+    <input type=hidden name="id" id="id" value="[$Contact.id]">
+  <div class="form-group">
+     <label for="email">Full Name:</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Agent Full Name" required value="[$Contact.name]">
+  </div>
+  <div class="form-group">
+    <label for="pwd">CodeName:</label>
+    <input type="text" class="form-control" name="codename" id="codename" placeholder="Code name" value="[$Contact.codename]">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Balance</label>
+    <input type="text" class="form-control" name="balance" id="balance" placeholder="User Balance" required value="[$Contact.balance]">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox" id="gemblung_status" name="gemblung_status"> Gemblung</label>
+  </div>
+  <button type="submit" class="btn btn-default">Save</button>
+</form>
+</div>
+
+
+
+<div class="container">
+<table class="table table-striped">
+	<thead><tr><th>#</th><th>Full Name</th><th>Code Name</th><th>Balance</th><th>Gemblung?</th><th>Action</th></tr></thead>
+    <tbody>
+        [foreach from=$Contacts item=aItem type=table]
+		<tr>
+		  <td>&nbsp;</td>
+		  <td>[aItem.name]</td>
+		  <td>[aItem.codename]</td>
+		  <td>[aItem.balance]</td>
+		  <td>[if aItem.gemblung_status eq 1]Yak[else]nDak[/if]</td>
+          <td>
+            <a href="?op=edit&id=[aItem.id]">Edit</a> |
+            <a href="?op=delete&id=[aItem.id]" onClick="return ConfirmDelete();">Delete</a>
+          </td>
+		</tr>
+		[/foreach from=$Contacts]
+    </tbody>
+</table>
+</div>
+
+<div class="bs-callout bs-callout-info">
+...
+</div>
+
+<div class="highlight pull-right"><pre>
+<b>Source:</b>
+<code class="bash">
+controller   : src/app/contacts/contacts_controllers.pas
+model        : src/app/contacts/contact_model.pas
+view         : modules/contacts/main.html
+layout theme : themes/[$theme]/templates/master.html
+</code></pre></div>
+
+
+<script type="text/javascript" >
+function ConfirmDelete()
+{
+    return confirm("Delete this Data ?\n");
+}
+</script>
+
