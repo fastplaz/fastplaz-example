@@ -6,12 +6,12 @@ AddHandler cgi-script .pas
 AddHandler cgi-script .exe
 Options +ExecCGI
 
-#DirectoryIndex sendmail.bin
+DirectoryIndex recaptcha.bin
 
 RewriteCond %{REQUEST_FILENAME} -d [OR]
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -l
 RewriteRule ^(.*)$ - [NC,L]
 #RewriteRule ^(.*)$ 404.php [QSA,L]
-RewriteRule ^(.*)$ sendmail.bin/$1 [QSA,L]
+RewriteRule ^(.*)$ recaptcha.bin/$1 [QSA,L]
 

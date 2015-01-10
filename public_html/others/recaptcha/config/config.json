@@ -1,0 +1,10 @@
+{
+  "systems" : {
+    "sitename" : "FastPlaz - reCAPTCHA Example",
+    "slogan" : "Fast Pascal Framework for Web Development - reCAPTCHA Example",
+    "error_redirect" : false,
+    "theme_enable" : true,
+    "theme" : "default",
+    "temp" : "ztemp"
+  }
+}
