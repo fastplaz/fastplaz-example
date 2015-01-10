@@ -163,7 +163,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="5" HistoryIndex="4">
+    <JumpHistory Count="4" HistoryIndex="3">
       <Position1>
         <Filename Value="main.pas"/>
         <Caret Line="54" Column="1" TopLine="41"/>
@@ -180,10 +180,6 @@
         <Filename Value="main.pas"/>
         <Caret Line="60" Column="1" TopLine="40"/>
       </Position4>
-      <Position5>
-        <Filename Value="main.pas"/>
-        <Caret Line="18" Column="1" TopLine="39"/>
-      </Position5>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>
