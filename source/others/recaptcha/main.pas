@@ -5,8 +5,11 @@ unit main;
 interface
 
 uses
-  mailer_lib,
+  recaptcha_lib,
   Classes, SysUtils, fpcgi, HTTPDefs, fastplaz_handler, html_lib, database_lib;
+
+const
+  RECAPTCHA_PRIVATE_KEY = 'your_captcha_private_key';
 
 type
   TMainModule = class(TMyCustomWebModule)
@@ -34,32 +37,22 @@ end;
 
 procedure TMainModule.RequestHandler(Sender: TObject; ARequest: TRequest; AResponse: TResponse; var Handled: boolean);
 var
-  Mailer: TMailer;
+  infoString : string;
 begin
-  Mailer := TMailer.Create;
-
-  //-- smtp server
-  Mailer.MailServer := 'smtp.gmail.com';
-  Mailer.UserName := 'your_username';
-  Mailer.Password := 'the_password';
-  Mailer.Port := '465';
-  Mailer.SSL := True;
-  Mailer.TLS := True;
-
-  //-- start send email
-  Mailer.Clear;
-  Mailer.Sender := 'youremail@yourdomain.id';
-  Mailer.Subject := 'This is Subject';
-  Mailer.Message.Add('This is <b>bold</b> message.');
-  Mailer.AddTo('yourtargetemail@domain.tld');
-  if not Mailer.Send then
+  if isPost then
   begin
-    Response.Content := 'ERR: ';
+    with TReCaptcha.Create( RECAPTCHA_PRIVATE_KEY) do
+    begin
+      if isValid() then
+        infoString := '<b>Verified</b>'
+      else
+        infoString := ErrorCodes;
+      Free;
+    end;
   end;
-  Response.Content := Response.Content + Mailer.Logs;
-  FreeAndNil(Mailer);
 
-  Response.Content := '<pre>' + Response.Content + '</pre>';
+  ThemeUtil.Assign( 'info', infoString);
+  Response.Content := ThemeUtil.Render();
   Handled := True;
 end;
 
