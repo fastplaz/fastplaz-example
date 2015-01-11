@@ -4,7 +4,7 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="19">
+    <Units Count="20">
       <Unit0>
         <Filename Value="contacts.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -18,29 +18,33 @@
         <Filename Value="routes.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="routes"/>
+        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="16"/>
         <UsageCount Value="59"/>
+        <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="main.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="main"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="34"/>
         <CursorPos X="69" Y="51"/>
         <UsageCount Value="59"/>
+        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="src\contacts_controller.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="contacts_controller"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="120"/>
-        <CursorPos X="5" Y="124"/>
+        <TopLine Value="75"/>
+        <CursorPos X="35" Y="70"/>
         <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -49,7 +53,7 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="contact_model"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="5"/>
+        <TopLine Value="6"/>
         <CursorPos X="1" Y="1"/>
         <UsageCount Value="59"/>
       </Unit4>
@@ -57,8 +61,8 @@
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\database_lib.pas"/>
         <UnitName Value="database_lib"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="55"/>
-        <CursorPos X="1" Y="3"/>
+        <TopLine Value="271"/>
+        <CursorPos X="19" Y="287"/>
         <UsageCount Value="25"/>
       </Unit5>
       <Unit6>
@@ -94,12 +98,10 @@
       <Unit10>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
         <UnitName Value="fastplaz_handler"/>
-        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="631"/>
         <CursorPos X="18" Y="637"/>
         <UsageCount Value="12"/>
-        <Loaded Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="..\..\..\..\source\core\tools\src\fastplaz_runtime_register.pas"/>
@@ -168,111 +170,79 @@
         <CursorPos X="15" Y="124"/>
         <UsageCount Value="12"/>
       </Unit18>
+      <Unit19>
+        <Filename Value="C:\lazarus-1.2.6\fpc\2.6.4\source\packages\fcl-json\src\fpjson.pp"/>
+        <UnitName Value="fpjson"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="279"/>
+        <CursorPos X="3" Y="290"/>
+        <UsageCount Value="10"/>
+      </Unit19>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="25" HistoryIndex="24">
+    <JumpHistory Count="15" HistoryIndex="14">
       <Position1>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="76" Column="46" TopLine="72"/>
+        <Caret Line="19" Column="19" TopLine="4"/>
       </Position1>
       <Position2>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="76" Column="46" TopLine="66"/>
+        <Caret Line="98" Column="23" TopLine="89"/>
       </Position2>
       <Position3>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="77" Column="16" TopLine="65"/>
+        <Caret Line="23" Column="1" TopLine="10"/>
       </Position3>
       <Position4>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="44" Column="1" TopLine="39"/>
+        <Caret Line="40" Column="56" TopLine="28"/>
       </Position4>
       <Position5>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="65" Column="33" TopLine="54"/>
+        <Caret Line="25" Column="17" TopLine="14"/>
       </Position5>
       <Position6>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="17" Column="29" TopLine="16"/>
+        <Caret Line="57" Column="7" TopLine="47"/>
       </Position6>
       <Position7>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="34" Column="11" TopLine="19"/>
+        <Caret Line="56" Column="21" TopLine="44"/>
       </Position7>
       <Position8>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="20" Column="33" TopLine="20"/>
+        <Caret Line="20" Column="19" TopLine="8"/>
       </Position8>
       <Position9>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="19" Column="19" TopLine="4"/>
+        <Caret Line="113" Column="12" TopLine="102"/>
       </Position9>
       <Position10>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="98" Column="23" TopLine="89"/>
+        <Caret Line="21" Column="19" TopLine="10"/>
       </Position10>
       <Position11>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="23" Column="1" TopLine="10"/>
+        <Caret Line="138" Column="21" TopLine="70"/>
       </Position11>
       <Position12>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="40" Column="56" TopLine="28"/>
+        <Caret Line="138" Column="1" TopLine="131"/>
       </Position12>
       <Position13>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="25" Column="17" TopLine="14"/>
+        <Caret Line="140" Column="23" TopLine="122"/>
       </Position13>
       <Position14>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="57" Column="7" TopLine="47"/>
+        <Caret Line="25" Column="21" TopLine="12"/>
       </Position14>
       <Position15>
         <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="56" Column="21" TopLine="44"/>
+        <Caret Line="70" Column="35" TopLine="75"/>
       </Position15>
-      <Position16>
-        <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="20" Column="19" TopLine="8"/>
-      </Position16>
-      <Position17>
-        <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="113" Column="12" TopLine="102"/>
-      </Position17>
-      <Position18>
-        <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="21" Column="19" TopLine="10"/>
-      </Position18>
-      <Position19>
-        <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="138" Column="21" TopLine="70"/>
-      </Position19>
-      <Position20>
-        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
-        <Caret Line="211" Column="3" TopLine="200"/>
-      </Position20>
-      <Position21>
-        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
-        <Caret Line="153" Column="3" TopLine="142"/>
-      </Position21>
-      <Position22>
-        <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="138" Column="1" TopLine="131"/>
-      </Position22>
-      <Position23>
-        <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="140" Column="23" TopLine="122"/>
-      </Position23>
-      <Position24>
-        <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="25" Column="21" TopLine="12"/>
-      </Position24>
-      <Position25>
-        <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="72" Column="42" TopLine="104"/>
-      </Position25>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>
