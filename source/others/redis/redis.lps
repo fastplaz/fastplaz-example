@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="redis.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="redis"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="22"/>
+        <UsageCount Value="21"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="routes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="routes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="17"/>
+        <UsageCount Value="21"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="main"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="47"/>
+        <CursorPos X="44" Y="56"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\source\core\docs\README-new project.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <UnitName Value="redis_controller"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="258"/>
+        <CursorPos X="4" Y="280"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\source\core\tools\src\fastplaz_runtime_register.pas"/>
+        <UnitName Value="fastplaz_runtime_register"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\define.inc"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="19" Y="2"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\database_lib.pas"/>
+        <UnitName Value="database_lib"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="29" Y="3"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\..\lazarus-component\source\pl_Synapse\source\blcksock.pas"/>
+        <UnitName Value="blcksock"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\mailer_lib.pas"/>
+        <UnitName Value="mailer_lib"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="244"/>
+        <CursorPos X="62" Y="258"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus-1.2.6\fpc\2.6.4\source\rtl\inc\socketsh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="193"/>
+        <CursorPos X="10" Y="203"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\common.pas"/>
+        <UnitName Value="common"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3"/>
+        <CursorPos X="22" Y="14"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\language_lib.pas"/>
+        <UnitName Value="language_lib"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="3" Y="9"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus-1.2.6\lcl\translations.pas"/>
+        <UnitName Value="Translations"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
+        <UnitName Value="fastplaz_handler"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="193"/>
+        <CursorPos X="3" Y="204"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="16" HistoryIndex="15">
+      <Position1>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="271" Column="5" TopLine="256"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="271" Column="1" TopLine="190"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="60" Column="37" TopLine="52"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="275" Column="99" TopLine="258"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="145" Column="1" TopLine="135"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="277" Column="33" TopLine="267"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="3" Column="7" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="144" Column="13" TopLine="130"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="144" Column="24" TopLine="131"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="137" Column="16" TopLine="101"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="276" Column="101" TopLine="132"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="39" Column="5" TopLine="31"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="276" Column="33" TopLine="266"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="144" Column="1" TopLine="133"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\redis_controller.pas"/>
+        <Caret Line="277" Column="31" TopLine="265"/>
+      </Position16>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

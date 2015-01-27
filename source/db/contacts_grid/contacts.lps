@@ -18,21 +18,18 @@
         <Filename Value="routes.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="routes"/>
-        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="16"/>
         <UsageCount Value="59"/>
-        <Loaded Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="main.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="main"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="34"/>
+        <TopLine Value="22"/>
         <CursorPos X="69" Y="51"/>
         <UsageCount Value="59"/>
         <Loaded Value="True"/>
@@ -41,10 +38,11 @@
         <Filename Value="src\contacts_controller.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="contacts_controller"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="75"/>
-        <CursorPos X="35" Y="70"/>
+        <TopLine Value="96"/>
+        <CursorPos X="4" Y="96"/>
         <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -182,7 +180,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="15" HistoryIndex="14">
+    <JumpHistory Count="14" HistoryIndex="13">
       <Position1>
         <Filename Value="src\contacts_controller.pas"/>
         <Caret Line="19" Column="19" TopLine="4"/>
@@ -239,10 +237,6 @@
         <Filename Value="src\contacts_controller.pas"/>
         <Caret Line="25" Column="21" TopLine="12"/>
       </Position14>
-      <Position15>
-        <Filename Value="src\contacts_controller.pas"/>
-        <Caret Line="70" Column="35" TopLine="75"/>
-      </Position15>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>
