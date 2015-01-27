@@ -5,11 +5,7 @@ unit main;
 interface
 
 uses
-  recaptcha_lib, datetime_lib, dateutils,
-  Classes, SysUtils, fpcgi, HTTPDefs, fastplaz_handler, html_lib, database_lib;
-
-const
-  RECAPTCHA_PRIVATE_KEY = 'your_captcha_private_key';
+  Classes, SysUtils, fpcgi, HTTPDefs, fastplaz_handler, html_lib, database_lib, redis_controller;
 
 type
   TMainModule = class(TMyCustomWebModule)
@@ -37,22 +33,39 @@ end;
 
 procedure TMainModule.RequestHandler(Sender: TObject; ARequest: TRequest; AResponse: TResponse; var Handled: boolean);
 var
-  infoString : string;
+  Redis: TRedisConstroller;
+  s: string;
 begin
-  if isPost then
+  Redis := TRedisConstroller.Create();
+  echo(h3('Redis Example'));
+
+  // using key/password authentication
+  {
+  if Redis.Auth( 'yourkeypassword') then
   begin
-    with TReCaptcha.Create( RECAPTCHA_PRIVATE_KEY) do
-    begin
-      if isValid() then
-        infoString := '<b>Verified</b>'
-      else
-        infoString := ErrorCodes;
-      Free;
-    end;
+  end;
+  }
+
+  if not Redis.Ping then
+  begin
+    echo('Not Connected');
+  end
+  else
+  begin
+    // set
+    Redis.ServerAddress := '127.0.0.1'; // default is 127.0.0.1
+    Redis.Port := '6379';
+    Redis['yourkey'] := 'Your data string at ' + DateTimeToStr(now);
+
+    // get
+    s := Redis['yourkey'];
+    if (s = '-1') then
+      echo('No Data, wrong configuration, or .... ')
+    else
+      echo('Your Data: ' + s);
   end;
 
-  ThemeUtil.Assign( 'info', infoString);
-  Response.Content := ThemeUtil.Render();
+  FreeAndNil(Redis);
   Handled := True;
 end;
 

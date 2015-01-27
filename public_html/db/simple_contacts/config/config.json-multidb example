@@ -27,16 +27,16 @@
       "password" : "root",
       "database_name" : "thisisdatabase",
       "prefix" : "",
-      "library" : "..\/..\/..\/libs\/win\/libmysql.dll"
+      "library" : ""
     },
     "master" : {
       "driver" : "MySQL 5.0",
-      "hostname" : "localhost",
+      "hostname" : "other-server",
       "username" : "root",
       "password" : "root",
-      "database_name" : "thisisdatabase2x",
+      "database_name" : "thisisdatabase",
       "prefix" : "",
-      "library" : "..\/..\/..\/libs\/win\/libmysql.dll"
+      "library" : ""
     }
   }
 }

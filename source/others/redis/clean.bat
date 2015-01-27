@@ -14,5 +14,4 @@ rmdir /s /q lib\
 rmdir /s /q backup\
 rmdir /s /q src\backup\
 
-
 timeout /t 3

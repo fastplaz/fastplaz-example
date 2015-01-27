@@ -36,9 +36,9 @@ procedure TMainModule.RequestHandler(Sender: TObject; ARequest: TRequest; ARespo
 var
   Mailer: TMailer;
 begin
-  Mailer := TMailer.Create;
+  Mailer := TMailer.Create( 'default'); // autoread config mailer "default"
 
-  //-- smtp server
+  //-- manual config smtp server
   Mailer.MailServer := 'smtp.gmail.com';
   Mailer.UserName := 'your_username';
   Mailer.Password := 'the_password';

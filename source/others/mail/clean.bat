@@ -13,8 +13,6 @@ del /s /q lib\*
 rmdir /s /q lib\
 rmdir /s /q backup\
 rmdir /s /q src\backup\
-rmdir /s /q src\app\wordpress\backup\
-rmdir /s /q src\app\wordpress\model\backup\
-rmdir /s /q src\app\wordpress\plugins\backup\
+
 
 timeout /t 3

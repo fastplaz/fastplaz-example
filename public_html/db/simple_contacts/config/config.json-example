@@ -1,6 +1,6 @@
 {
   "systems" : {
-    "sitename" : "FastPlaz - Simple Contact CRUD Example",
+    "sitename" : "FastPlaz",
     "slogan" : "Fast Pascal Framework for Web Development",
     "baseurl" : "",
     "admin_email" : "example@fastplaz.com",
@@ -16,27 +16,14 @@
     "error_redirect" : false
   },
   "database" : {
-    "options" : {
-        "read" : "default",
-        "write" : "master"
-    },
     "default" : {
-      "driver" : "MySQL 5.0",
+      "driver" : "sqlite3",
       "hostname" : "localhost",
       "username" : "root",
       "password" : "root",
       "database_name" : "thisisdatabase",
       "prefix" : "",
-      "library" : "..\/..\/..\/libs\/win\/libmysql.dll"
-    },
-    "master" : {
-      "driver" : "MySQL 5.0",
-      "hostname" : "localhost",
-      "username" : "root",
-      "password" : "root",
-      "database_name" : "thisisdatabase2x",
-      "prefix" : "",
-      "library" : "..\/..\/..\/libs\/win\/libmysql.dll"
+      "library" : "sqlite3.dll"
     }
   }
 }

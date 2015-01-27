@@ -4,15 +4,15 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="12">
+    <Units Count="20">
       <Unit0>
         <Filename Value="sendmail.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="sendmail"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="2"/>
-        <CursorPos X="1" Y="22"/>
-        <UsageCount Value="24"/>
+        <TopLine Value="1"/>
+        <CursorPos X="5" Y="10"/>
+        <UsageCount Value="27"/>
       </Unit0>
       <Unit1>
         <Filename Value="routes.pas"/>
@@ -21,7 +21,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="8"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="27"/>
       </Unit1>
       <Unit2>
         <Filename Value="main.pas"/>
@@ -30,9 +30,9 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="42"/>
-        <CursorPos X="52" Y="59"/>
-        <UsageCount Value="24"/>
+        <TopLine Value="38"/>
+        <CursorPos X="33" Y="48"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -45,18 +45,22 @@
       </Unit3>
       <Unit4>
         <Filename Value="..\..\..\..\source\core\FastPlaz\define.inc"/>
+        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="8" Y="5"/>
+        <CursorPos X="11" Y="6"/>
         <UsageCount Value="10"/>
+        <Loaded Value="True"/>
       </Unit4>
       <Unit5>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\mailer_lib.pas"/>
         <UnitName Value="mailer_lib"/>
+        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="4"/>
-        <CursorPos X="49" Y="11"/>
-        <UsageCount Value="10"/>
+        <TopLine Value="1"/>
+        <CursorPos X="32" Y="11"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="..\..\..\..\ref\mailer\xmailer\xmailer-master\src\xmailer.pas"/>
@@ -78,8 +82,8 @@
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\database_lib.pas"/>
         <UnitName Value="database_lib"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="128"/>
-        <CursorPos X="41" Y="144"/>
+        <TopLine Value="125"/>
+        <CursorPos X="56" Y="136"/>
         <UsageCount Value="10"/>
       </Unit8>
       <Unit9>
@@ -105,15 +109,104 @@
         <CursorPos X="1" Y="1"/>
         <UsageCount Value="10"/>
       </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
+        <UnitName Value="fastplaz_handler"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="235"/>
+        <CursorPos X="83" Y="254"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\config_lib.pas"/>
+        <UnitName Value="config_lib"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="30"/>
+        <CursorPos X="17" Y="40"/>
+        <UsageCount Value="11"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\common.pas"/>
+        <UnitName Value="common"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="46"/>
+        <CursorPos X="22" Y="58"/>
+        <UsageCount Value="12"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus-1.2.6\fpc\2.6.4\source\packages\fcl-json\src\jsonconf.pp"/>
+        <UnitName Value="jsonConf"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="61"/>
+        <CursorPos X="54" Y="76"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\initialize_controller.pas"/>
+        <UnitName Value="initialize_controller"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="169"/>
+        <CursorPos X="25" Y="174"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus-1.2.6\fpc\2.6.4\source\rtl\inc\objpash.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="181"/>
+        <CursorPos X="23" Y="192"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\main.pas"/>
+        <UnitName Value="main"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="30"/>
+        <CursorPos X="49" Y="43"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\vendor\xmailer.pas"/>
+        <UnitName Value="xmailer"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="26"/>
+        <CursorPos X="16" Y="20"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit19>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="1" HistoryIndex="0">
+    <JumpHistory Count="7" HistoryIndex="6">
       <Position1>
         <Filename Value="main.pas"/>
-        <Caret Line="59" Column="51" TopLine="41"/>
+        <Caret Line="56" Column="20" TopLine="46"/>
       </Position1>
+      <Position2>
+        <Filename Value="main.pas"/>
+        <Caret Line="39" Column="21" TopLine="33"/>
+      </Position2>
+      <Position3>
+        <Filename Value="main.pas"/>
+        <Caret Line="41" Column="17" TopLine="40"/>
+      </Position3>
+      <Position4>
+        <Filename Value="main.pas"/>
+        <Caret Line="43" Column="1" TopLine="40"/>
+      </Position4>
+      <Position5>
+        <Filename Value="main.pas"/>
+        <Caret Line="48" Column="33" TopLine="38"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\mailer_lib.pas"/>
+        <Caret Line="11" Column="26" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\..\source\core\FastPlaz\src\vendor\xmailer.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position7>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>
