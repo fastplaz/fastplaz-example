@@ -1,0 +1,18 @@
+{
+  "systems" : {
+    "sitename" : "FastPlaz - Redis Example",
+    "theme_enable" : false
+  },
+  "redis" : {
+    "write_to_master" : true,
+    "master_config" : "master",
+    "default" : {
+      "server" : "127.0.0.1",
+      "port" : "6379",
+    },
+    "master" : {
+      "server" : "192.168.0.99",
+      "port" : "6379",
+    }
+  }
+}

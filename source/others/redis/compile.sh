@@ -1,3 +1,3 @@
 mkdir lib
-fpc recaptcha.lpr @extra.cfg
+fpc redis.lpr @extra.cfg
 
