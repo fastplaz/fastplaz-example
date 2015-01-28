@@ -39,7 +39,7 @@ begin
   Redis := TRedisConstroller.Create();
   echo(h3('Redis Example'));
 
-  // using key/password authentication
+  // if using key/password authentication
   {
   if Redis.Auth( 'yourkeypassword') then
   begin
@@ -53,9 +53,9 @@ begin
   else
   begin
     // set
-    Redis.ServerAddress := '127.0.0.1'; // default is 127.0.0.1
-    Redis.Port := '6379';
     Redis['yourkey'] := 'Your data string at ' + DateTimeToStr(now);
+    if Redis.LastMessage <> '+OK' then
+      echo( 'ERR: ' + Redis.LastMessage + '<br />');
 
     // get
     s := Redis['yourkey'];

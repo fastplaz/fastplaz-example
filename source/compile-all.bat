@@ -1,31 +1,31 @@
-@echo off
+compile@echo off
 
 cd helloworld
-call compile.bat
+call compile
 
 cd ..\helloworld-with-theme
-call compile.bat
+call compile
 
 cd ..\others\json
-call compile.bat
+call compile
 
 cd ..\mail
-call compile.bat
+call compile
 
 cd ..\recaptcha
-call compile.bat
+call compile
 
 cd ..\redis
-call compile.bat
+call compile
 
 cd ..\..\session\session
-call compile.bat
+call compile
 
 cd ..\..\db\contacts_grid
-call compile.bat
+call compile
 
 cd ..\simple_contacts
-call compile.bat
+call compile
 
 
 cd ..\..
