@@ -2,58 +2,45 @@
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
     <Units Count="12">
       <Unit0>
         <Filename Value="sendmail.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="sendmail"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="2"/>
-        <CursorPos X="1" Y="22"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos Y="22"/>
         <UsageCount Value="24"/>
       </Unit0>
       <Unit1>
         <Filename Value="routes.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="routes"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="8"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32" Y="15"/>
         <UsageCount Value="24"/>
       </Unit1>
       <Unit2>
         <Filename Value="main.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="main"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="0"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="42"/>
-        <CursorPos X="52" Y="59"/>
+        <TopLine Value="11"/>
+        <CursorPos Y="16"/>
         <UsageCount Value="24"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\..\..\..\source\core\docs\README-new project.txt"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit3>
       <Unit4>
         <Filename Value="..\..\..\..\source\core\FastPlaz\define.inc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
         <CursorPos X="8" Y="5"/>
         <UsageCount Value="10"/>
       </Unit4>
       <Unit5>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\mailer_lib.pas"/>
-        <UnitName Value="mailer_lib"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="4"/>
         <CursorPos X="49" Y="11"/>
         <UsageCount Value="10"/>
@@ -61,60 +48,52 @@
       <Unit6>
         <Filename Value="..\..\..\..\ref\mailer\xmailer\xmailer-master\src\xmailer.pas"/>
         <UnitName Value="XMailer"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
         <CursorPos X="25" Y="5"/>
         <UsageCount Value="10"/>
       </Unit6>
       <Unit7>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\xmailer.pas"/>
         <UnitName Value="XMailer"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="91"/>
         <CursorPos X="24" Y="102"/>
         <UsageCount Value="10"/>
       </Unit7>
       <Unit8>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\database_lib.pas"/>
-        <UnitName Value="database_lib"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="128"/>
         <CursorPos X="41" Y="144"/>
         <UsageCount Value="10"/>
       </Unit8>
       <Unit9>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\logutil_lib.pas"/>
-        <UnitName Value="logutil_lib"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="79"/>
         <CursorPos X="21" Y="76"/>
         <UsageCount Value="10"/>
       </Unit9>
       <Unit10>
         <Filename Value="C:\lazarus-1.2.6\fpc\2.6.4\source\rtl\objpas\sysutils\datih.inc"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="131"/>
         <CursorPos X="10" Y="141"/>
         <UsageCount Value="10"/>
       </Unit10>
       <Unit11>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\versioninfo_lib.pas"/>
-        <UnitName Value="versioninfo_lib"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="10"/>
       </Unit11>
     </Units>
-    <General>
-      <ActiveWindowIndexAtStart Value="0"/>
-    </General>
-    <JumpHistory Count="1" HistoryIndex="0">
+    <JumpHistory Count="2" HistoryIndex="1">
       <Position1>
         <Filename Value="main.pas"/>
         <Caret Line="59" Column="51" TopLine="41"/>
       </Position1>
+      <Position2>
+        <Filename Value="main.pas"/>
+        <Caret Line="24" TopLine="5"/>
+      </Position2>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
-  <EditorMacros Count="0"/>
 </CONFIG>

@@ -2,171 +2,147 @@
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="19">
+    <Units Count="22">
       <Unit0>
         <Filename Value="recaptcha.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="recaptcha"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos Y="22"/>
         <UsageCount Value="26"/>
       </Unit0>
       <Unit1>
         <Filename Value="routes.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="routes"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="30" Y="18"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="16"/>
         <UsageCount Value="26"/>
       </Unit1>
       <Unit2>
         <Filename Value="main.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="main"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="0"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="10"/>
-        <CursorPos X="28" Y="12"/>
+        <TopLine Value="40"/>
+        <CursorPos X="27" Y="44"/>
         <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\..\..\..\source\core\docs\README-new project.txt"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit3>
       <Unit4>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\initialize_controller.pas"/>
-        <UnitName Value="initialize_controller"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="70"/>
         <CursorPos X="15" Y="78"/>
         <UsageCount Value="10"/>
       </Unit4>
       <Unit5>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\theme_controller.pas"/>
-        <UnitName Value="theme_controller"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="1111"/>
         <CursorPos X="31" Y="1090"/>
         <UsageCount Value="11"/>
       </Unit5>
       <Unit6>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
-        <UnitName Value="fastplaz_handler"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="193"/>
         <CursorPos X="3" Y="204"/>
         <UsageCount Value="10"/>
       </Unit6>
       <Unit7>
         <Filename Value="..\..\..\..\git\FastPlaz-core\FastPlaz\src\library\recaptcha_lib.pas"/>
-        <UnitName Value="recaptcha_lib"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="20"/>
       </Unit7>
       <Unit8>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\recaptcha_lib.pas"/>
-        <UnitName Value="recaptcha_lib"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="10"/>
         <CursorPos X="21" Y="25"/>
         <UsageCount Value="12"/>
       </Unit8>
       <Unit9>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\mailer_lib.pas"/>
-        <UnitName Value="mailer_lib"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="10"/>
       </Unit9>
       <Unit10>
         <Filename Value="..\..\..\..\source\core\FastPlaz\define.inc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="10"/>
       </Unit10>
       <Unit11>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\html_lib.pas"/>
-        <UnitName Value="html_lib"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="264"/>
         <CursorPos X="31" Y="278"/>
         <UsageCount Value="10"/>
       </Unit11>
       <Unit12>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\common.pas"/>
-        <UnitName Value="common"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="206"/>
         <CursorPos X="56" Y="226"/>
         <UsageCount Value="12"/>
       </Unit12>
       <Unit13>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\systems\module_controller.pas"/>
-        <UnitName Value="module_controller"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="26"/>
         <CursorPos X="7" Y="44"/>
         <UsageCount Value="10"/>
       </Unit13>
       <Unit14>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\library\database_lib.pas"/>
-        <UnitName Value="database_lib"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="489"/>
         <CursorPos X="43" Y="497"/>
         <UsageCount Value="11"/>
       </Unit14>
       <Unit15>
         <Filename Value="C:\lazarus-1.2.6\fpc\2.6.4\source\packages\fcl-web\src\base\fphttpclient.pp"/>
-        <UnitName Value="fphttpclient"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
         <CursorPos X="18" Y="15"/>
         <UsageCount Value="11"/>
       </Unit15>
       <Unit16>
         <Filename Value="C:\lazarus-1.2.6\fpc\2.6.4\source\packages\fcl-base\src\custapp.pp"/>
         <UnitName Value="CustApp"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="75"/>
         <CursorPos X="14" Y="84"/>
         <UsageCount Value="10"/>
       </Unit16>
       <Unit17>
         <Filename Value="C:\lazarus-1.2.6\fpc\2.6.4\source\packages\fcl-web\src\base\fpcgi.pp"/>
-        <UnitName Value="fpcgi"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="19"/>
         <CursorPos X="3" Y="30"/>
         <UsageCount Value="10"/>
       </Unit17>
       <Unit18>
         <Filename Value="..\..\..\..\source\core\FastPlaz\src\vendor\fphttpclient_with_ssl.pp"/>
-        <UnitName Value="fphttpclient_with_ssl"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="39"/>
         <CursorPos X="25" Y="50"/>
         <UsageCount Value="10"/>
       </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\..\..\..\FastPlaz\source\core\FastPlaz\src\systems\fastplaz_handler.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\..\..\..\..\FastPlaz\source\core\FastPlaz\src\systems\theme_controller.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1716"/>
+        <CursorPos X="53" Y="1739"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\..\..\..\..\FastPlaz\source\core\FastPlaz\src\library\html_lib.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="458"/>
+        <CursorPos Y="455"/>
+        <UsageCount Value="10"/>
+      </Unit21>
     </Units>
-    <General>
-      <ActiveWindowIndexAtStart Value="0"/>
-    </General>
-    <JumpHistory Count="5" HistoryIndex="4">
+    <JumpHistory Count="6" HistoryIndex="5">
       <Position1>
         <Filename Value="main.pas"/>
-        <Caret Line="54" Column="1" TopLine="41"/>
+        <Caret Line="54" TopLine="41"/>
       </Position1>
       <Position2>
         <Filename Value="main.pas"/>
@@ -178,13 +154,20 @@
       </Position3>
       <Position4>
         <Filename Value="main.pas"/>
-        <Caret Line="60" Column="1" TopLine="40"/>
+        <Caret Line="60" TopLine="40"/>
       </Position4>
       <Position5>
         <Filename Value="main.pas"/>
-        <Caret Line="18" Column="1" TopLine="39"/>
+        <Caret Line="37" TopLine="30"/>
       </Position5>
+      <Position6>
+        <Filename Value="main.pas"/>
+        <Caret Line="19" TopLine="9"/>
+      </Position6>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
-  <EditorMacros Count="0"/>
 </CONFIG>

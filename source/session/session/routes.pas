@@ -12,7 +12,7 @@ implementation
 uses info_controller, main;
 
 initialization
-  Route.Add( 'main', TMainModule);
+  Route['main'] := TMainModule;
 
 end.
 

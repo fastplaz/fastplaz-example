@@ -12,8 +12,8 @@ implementation
 uses info_controller, main;
 
 initialization
-  Route.Add( 'main', TMainModule);
-  Route.Add( 'info', TInfoModule);
+  Route[ 'main'] := TMainModule;
+  Route[ 'info'] := TInfoModule;
 
 end.
 
