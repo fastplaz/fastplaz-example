@@ -1,0 +1,12 @@
+{
+  "systems" : {
+    "sitename" : "FastPlaz - Redis Example",
+    "theme_enable" : false
+  },
+  "redis" : {
+    "default" : {
+      "server" : "127.0.0.1",
+      "port" : "6379",
+    },
+  }
+}

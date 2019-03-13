@@ -1,0 +1,28 @@
+{
+  "systems" : {
+    "sitename" : "FastPlaz - Email Server",
+    "slogan" : "Fast Pascal Framework for Web Development",
+    "baseurl" : "",
+    "admin_email" : "example@fastplaz.com",
+    "development" : true,
+    "debug" : true,
+    "module_default" : "main",
+    "language_default" : "id",
+    "theme_enable" : true,
+    "theme" : "default",
+    "cache" : "file",
+    "temp" : "ztemp",
+    "error_url" : "\/",
+    "error_redirect" : false
+  },
+  "mailer" : {
+    "default" : {
+      "hostname" : "your.smtp.server",
+      "username" : "your_username",
+      "password" : "the_password",
+      "smtp_port" : "465",
+      "ssl" : true,
+      "tls" : true
+    }
+  }
+}
