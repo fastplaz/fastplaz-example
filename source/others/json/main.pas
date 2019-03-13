@@ -5,16 +5,21 @@ unit main;
 interface
 
 uses
-  fpjson,
+  json_lib,
   Classes, SysUtils, fpcgi, HTTPDefs, fastplaz_handler, html_lib, database_lib;
 
 type
+
+  { TMainModule }
+
   TMainModule = class(TMyCustomWebModule)
-    procedure RequestHandler(Sender: TObject; ARequest: TRequest; AResponse: TResponse; var Handled: boolean);
   private
   public
     constructor CreateNew(AOwner: TComponent; CreateMode: integer); override;
     destructor Destroy; override;
+
+    procedure Get; override;
+    procedure Post; override;
   end;
 
 implementation
@@ -24,7 +29,6 @@ uses theme_controller, common;
 constructor TMainModule.CreateNew(AOwner: TComponent; CreateMode: integer);
 begin
   inherited CreateNew(AOwner, CreateMode);
-  OnRequest := @RequestHandler;
 end;
 
 destructor TMainModule.Destroy;
@@ -37,35 +41,33 @@ end;
 
   {
     "code" : 0,
-    "response" : {
+    "result" : {
       "msg" : "OK",
-      "count" : "1",
-      "data" : "this is data"
+      "count" : 1,
+      "data" : "This is data"
     }
   }
 
 }
-procedure TMainModule.RequestHandler(Sender: TObject; ARequest: TRequest; AResponse: TResponse; var Handled: boolean);
+procedure TMainModule.Get;
 var
-  o, poResponse : TJSONObject;
+  json: TJSONUtil;
 begin
-  //Response.ContentType := 'application/json';
+  json := TJSONUtil.Create;
 
-  o := TJSONObject.Create;
-  poResponse := TJSONObject.Create;
-  poResponse.Add( 'msg', 'OK');
-  poResponse.Add( 'count', '1');
-  poResponse.Add( 'data', 'this is data');
-  o.Add( 'code', 0);
-  o.Add( 'response', poResponse);
+  json['code'] := int(0);
+  json['result/msg'] := 'OK';
+  json['result/count'] := int(1);
+  json['result/data'] := 'This is data';
 
-
-  Response.Content := o.AsJSON;
-  Handled := True;
-
-  FreeAndNil( o);
+  Response.ContentType := 'application/json';
+  Response.Content := json.AsJSONFormated;
+  FreeAndNil(json);
 end;
 
+procedure TMainModule.Post;
+begin
+end;
 
 
 end.

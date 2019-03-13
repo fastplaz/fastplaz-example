@@ -9,12 +9,17 @@ uses
   Classes, SysUtils, fpcgi, HTTPDefs, fastplaz_handler, html_lib, database_lib;
 
 type
+
+  { TMainModule }
+
   TMainModule = class(TMyCustomWebModule)
-    procedure RequestHandler(Sender: TObject; ARequest: TRequest; AResponse: TResponse; var Handled: boolean);
   private
   public
     constructor CreateNew(AOwner: TComponent; CreateMode: integer); override;
     destructor Destroy; override;
+
+    procedure Get; override;
+    procedure Post; override;
   end;
 
 implementation
@@ -24,7 +29,6 @@ uses theme_controller, common;
 constructor TMainModule.CreateNew(AOwner: TComponent; CreateMode: integer);
 begin
   inherited CreateNew(AOwner, CreateMode);
-  OnRequest := @RequestHandler;
 end;
 
 destructor TMainModule.Destroy;
@@ -32,13 +36,13 @@ begin
   inherited Destroy;
 end;
 
-procedure TMainModule.RequestHandler(Sender: TObject; ARequest: TRequest; AResponse: TResponse; var Handled: boolean);
+procedure TMainModule.Get;
 var
   Mailer: TMailer;
 begin
-  Mailer := TMailer.Create( 'default'); // autoread config mailer "default"
+  Mailer := TMailer.Create;
 
-  //-- manual config smtp server
+  //-- smtp server
   Mailer.MailServer := 'smtp.gmail.com';
   Mailer.UserName := 'your_username';
   Mailer.Password := 'the_password';
@@ -60,8 +64,12 @@ begin
   FreeAndNil(Mailer);
 
   Response.Content := '<pre>' + Response.Content + '</pre>';
-  Handled := True;
 end;
+
+procedure TMainModule.Post;
+begin
+end;
+
 
 end.
 

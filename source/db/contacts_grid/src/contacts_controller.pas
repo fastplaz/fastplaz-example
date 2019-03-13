@@ -93,6 +93,7 @@ end;
 procedure TContactsModule.saveAction(Sender: TObject; ARequest: TRequest;
   AResponse: TResponse; var Handled: boolean);
 var
+  s: string;
   isSaved: boolean;
 begin
   Response.ContentType := 'application/json';
